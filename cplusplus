@@ -1,0 +1,3 @@
+
+# creates assembler code inline with source code
+g++ -g -O0 -c -fverbose-asm -Wa,-adhln test.cpp > test.lst 
